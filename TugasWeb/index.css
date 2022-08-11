@@ -1,0 +1,300 @@
+body,
+h1,
+li,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: verdana, Helvetica, sans-serif;
+
+
+}
+
+
+a {
+
+    text-decoration: none;
+
+}
+
+#wrap {
+    min-width: 124px;
+    height: 100%;
+
+}
+
+div {
+    display: block;
+}
+
+#header {
+    position: relative;
+    z-index: 210;
+    height: 100px;
+    margin-bottom: -100px;
+    background: #fff;
+}
+
+.header_inner {
+    position: relative;
+    max-width: 1680px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.logo {
+
+    margin: 13px 0 0 25px;
+
+}
+
+.logo img {
+    float: left;
+    height: 74px;
+    width: 77px;
+
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.sta {
+    position: absolute;
+    top: 32px;
+    right: 25px;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.sta .kreator {
+    display: inline-block;
+    margin: 4px 12px 0 0;
+    vertical-align: top;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+
+.sta .kreator img {
+
+    width: 30px;
+    height: 30px;
+
+    vertical-align: middle;
+
+}
+
+.sta .publish {
+    display: inline-block;
+    width: 104px;
+    height: 33px;
+    border-radius: 17px;
+    background: #00d9a3;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.sta .login {
+    display: inline-block;
+    width: 102px;
+    height: 31px;
+    margin-left: 4px;
+    border: 1px solid #b4b4b4;
+    border-radius: 17px;
+    background: #fff;
+    line-height: 33px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 500;
+    color: #838383;
+}
+
+
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+.menu {
+    float: left;
+    padding: 40px 0 0 36px;
+    height: 60px;
+    vertical-align: top;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+    padding: 0 18px;
+
+}
+
+.menu li a {
+
+    display: block;
+    font-size: 20px;
+    line-height: 22px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#container {
+
+    position: relative;
+    height: 1500px;
+
+}
+
+#content {
+    position: relative;
+    padding: 100px 0 406px;
+}
+
+.main_banner_wrap {
+    background: url(bannerWebtoon.jpg) no-repeat;
+    background-size: cover;
+    height: 492px;
+}
+
+.daily_wrap {
+    background: #eaeaea;
+
+}
+
+.daily_tab_wrap {
+
+    height: 60px;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 0;
+    background: #fff;
+
+
+}
+
+.daily_tab_inner {
+    position: relative;
+    width: 1110px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.daily_tab {
+    display: inline-block;
+    margin-left: 107px;
+    vertical-align: middle;
+}
+
+.daily_tab li {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 60px;
+    line-height: 62px;
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+
+}
+
+#footer {
+
+    position: relative;
+    min-height: 200px;
+    margin-top: -200px;
+    border-top: 1px solid #e5e5e5;
+    background: #f5f5f5;
+
+}
+
+.foot_menu {
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+.foot_menu li {
+
+
+
+    display: inline-block;
+    height: 15px;
+    vertical-align: top;
+
+}
+
+.foot_menu a {
+
+
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+ul {
+    display: block;
+
+}
+
+.foot_menu .bar {
+    margin: 0 16px;
+}
+
+.bar {
+    display: inline-block;
+    overflow: hidden;
+    width: 1px;
+    height: 16px;
+    background: #d6d6d6;
+
+    vertical-align: top;
+}
+
+.main_daily_wrap .card {
+
+    padding-top: 18px;
+    padding-bottom: 25px;
+}
+
+.card {
+    width: 1125px;
+    margin: 0 auto;
+    padding-left: 15px;
+    display: flex;
+
+
+
+
+
+}
+
+.card li .c1 {
+
+    float: left;
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: 0 15px 15px 0;
+}
